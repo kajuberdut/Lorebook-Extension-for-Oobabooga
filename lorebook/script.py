@@ -1178,7 +1178,7 @@ def ui():
 
                     gr.HTML('<div style="margin:14px 0 6px;padding:8px 12px;border-left:3px solid rgba(139,92,246,.7);background:rgba(139,92,246,.06);border-radius:0 6px 6px 0"><span style="font-weight:600;font-size:13px;color:var(--body-text-color)">Mid-generation interrupt</span><span style="font-size:12px;color:var(--body-text-color-subdued)"> — pauses on new trigger words in model output, expands WI block, then resumes.</span></div>')
                     mid_gen_interrupt_cb = gr.Checkbox(label="Enable mid-gen interrupt", value=params["mid_gen_interrupt"],
-                                                       info="Requires stream mode to be on in generation settings.")
+                                                       info='Requires "Activate text streaming" to be checked in the "Generation" tab of "Parameters".')
                     max_interrupts_n = gr.Number(label="Max interrupts per reply", value=params["max_interrupts"],
                                                  step=1, minimum=1, maximum=100,
                                                  info="How many times generation can be interrupted in a single reply.")
