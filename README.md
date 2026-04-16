@@ -29,7 +29,7 @@ A full-featured Lorebook / World Info extension for [oobabooga's text-generation
 2. Launch oobabooga with `--extensions lorebook` or enable it from the **Extensions** tab in the UI.
 
 3. A **Lorebook** tab will appear in the interface.
-- Mid-generation interrupt requires "Activate text streaming" to be checked in "Paramters" under the "Generation" tab.
+- Mid-generation interrupt requires "Activate text streaming" to be checked in the "Generation" tab of "Parameters".
 - SillyTavern world-info `.json` files are directly importable without modification.
   
 ---
